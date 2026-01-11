@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
-    <!-- ===== Ajoute le lien vers le fichier style.css ===== -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
             <nav>
                 <div class="logo">
                     <!-- TODO MARDI HTML : Changez le nom (remplacez par VOTRE NOM) -->
-                    [Votre Nom]
+                    Brayan PEROL
                 </div>
                 <ul class="nav-links">
                     <li><a href="#about">À propos</a></li>
@@ -31,13 +31,13 @@
     <!-- ===== HERO SECTION ===== -->
     <section class="hero">
         <div class="container">
-            <h1>
+            <p class="typewriter">
                 <!-- TODO MARDI HTML : Changez ce titre (ex: "Je suis développeur web") -->
-                [future dev web]
-            </h1>
+                CONCEVOIR L'AVENIR DU NUMÉRRIQUE.
+            </p>
             <p>
                 <!-- TODO MARDI HTML : Changez cette description (parlez de VOUS) -->
-                Je suis un apprenti par le web et le numérique
+                Je suis un développeur passionné par la création d'expériences numériques élégantes et performantes.
             </p>
             <a href="#projects" class="cta-button">Découvrir mes projets</a>
         </div>
@@ -50,7 +50,7 @@
 
             <div class="about-content">
                 <div class="about-image">
-                    <img src="https://manus.im/share/vRNic0vbDmCzQpwyqY3juK?replay=1 lt=" Photo de profil ">
+                    <img src="img/IMG_0103.jpg" alt="Photo de profil ">
                 </div>
 
                 <div class="about-text ">
@@ -64,7 +64,7 @@
                     </p>
                     <p>
                         <!-- TODO MARDI HTML : Écrivez un deuxième paragraphe sur vous -->
-                        Mon objectif est [votre objectif]. Je travaille avec [vos outils/technologies].
+                        Mon objectif est de devenir un developpeur full stack. Je travaille avec des outils de technologies.
                     </p>
                 </div>
             </div>
@@ -73,27 +73,34 @@
 
     <!-- ===== SKILLS SECTION ===== -->
     <section class="skills " id="skills ">
-        <div class="container ">
-            <h2 class="section-title ">Mes Compétences</h2>
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
 
-            <div class="skills-grid ">
-                <div class="skill-card ">
-                    <div class="skill-icon ">🌐</div>
-                    <h3>[Compétence 1]</h3>
-                    <p>[Description de votre compétence 1]</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <p class="texte">Informatique</p>
+                    <button class="boutonTexte" data-texte="Maîtrise du HTML, CSS, JavaScript, GMAO, Zelio, Autocad, Solidworks, outils IA">
+    Changer le texte
+  </button>
                 </div>
 
-                <div class="skill-card ">
-                    <div class="skill-icon ">⚙️</div>
-                    <h3>[Compétence 2]</h3>
-                    <p>[Description de votre compétence 2]</p>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <p class="texte">Langue</p>
+                    <button class="boutonTexte" data-texte="Français, Anglais, langue maternelle">
+    Changer le texte
+  </button>
                 </div>
 
-                <div class="skill-card ">
-                    <div class="skill-icon ">🎨</div>
-                    <h3>[Compétence 3]</h3>
-                    <p>[Description de votre compétence 3]</p>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <p class="texte">Atouts</p>
+                    <button class="boutonTexte" data-texte="Ponctuel, rigoureux, proactif, bonne capacité d'adaptation">
+    Changer le texte
+  </button>
                 </div>
+
             </div>
         </div>
     </section>
@@ -183,6 +190,7 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
